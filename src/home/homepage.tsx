@@ -1,6 +1,7 @@
 import Header from "./header";
 import Hero from "./hero";
-import Services from "./services";
+import AboutUS from "./about_us";
+import Values from "./values";
 
 const Homepage = () => {
   return (
@@ -12,7 +13,10 @@ const Homepage = () => {
         <Hero />
       </div>
       <div className="px-32 bg-[#f9fafb]">
-        <Services />
+        <AboutUS />
+      </div>
+      <div className="px-32">
+        <Values />
       </div>
     </>
   );

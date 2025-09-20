@@ -1,6 +1,6 @@
 import { heroImages } from "@/constants/images";
 
-const Services = () => {
+const AboutUS = () => {
   return (
     <div className="grid grid-cols-2 gap-3 py-24 items-start ">
       <div>
@@ -22,13 +22,22 @@ const Services = () => {
           principles of quality, affordability, and transparency.
         </p>
       </div>
-      <img
-        src={heroImages.hero_image_2}
-        alt="Hero Image"
-        className="rounded-2xl object-cover w-full h-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-      />
+
+      <div className="relative w-full h-full">
+        <img
+          src={heroImages.hero_image_2}
+          alt="Hero Image"
+          className="rounded-2xl object-cover w-full h-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+        />
+        <div className="absolute bottom-4 left-4 bg-white rounded-lg px-4 py-2 shadow-lg">
+          <div className="text-[#7C3AED] font-bold text-center">
+            <div className="text-3xl">15+</div>
+            <div className="text-sm text-black">Years of Excellence</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Services;
+export default AboutUS;
