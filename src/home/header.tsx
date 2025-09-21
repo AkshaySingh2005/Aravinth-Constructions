@@ -18,7 +18,6 @@ const Header = () => {
         <a className="hover:text-[#7C3AED] cursor-pointer">Projects</a>
         <a className="hover:text-[#7C3AED] cursor-pointer">About</a>
         <a className="hover:text-[#7C3AED] cursor-pointer">Partners</a>
-        <a className="hover:text-[#7C3AED] cursor-pointer">Testimonials</a>
         <a className="hover:text-[#7C3AED] cursor-pointer">Contact</a>
         <Button className="bg-[#884cee]  hover:bg-[#7C3AED]">
           Get a Quote

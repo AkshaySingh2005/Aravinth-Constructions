@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { icons } from "@/constants/icon";
-import { heroImages } from "@/constants/images";
+import { heroImages } from "@/constants/heroImages";
 
 const Hero = () => {
   return (

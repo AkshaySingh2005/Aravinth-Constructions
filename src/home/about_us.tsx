@@ -1,4 +1,4 @@
-import { heroImages } from "@/constants/images";
+import { heroImages } from "@/constants/heroImages";
 
 const AboutUS = () => {
   return (

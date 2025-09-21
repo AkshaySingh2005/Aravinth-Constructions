@@ -7,7 +7,7 @@ const Values = () => {
             <div className="text-4xl font-bold font-sans flex justify-start">
               Our Mission
             </div>
-            <p className="leading-relaxed text-xl pt-5">
+            <p className="leading-relaxed text-xl pt-4">
               To provide affordable, reliable, and sustainable construction
               services that improve the lives of families and businesses in
               Poonthottam, Thiruvarur.
@@ -19,7 +19,7 @@ const Values = () => {
             <div className="text-4xl font-bold font-sans flex justify-start">
               Our Vision
             </div>
-            <p className="leading-relaxed text-xl pt-5">
+            <p className="leading-relaxed text-xl pt-4">
               To be the most trusted local construction partner in Poonthottam,
               Thiruvarur, known for on-time delivery, integrity, and durable
               results.
@@ -29,7 +29,7 @@ const Values = () => {
       </div>
 
       <div className="relative flex justify-center items-center">
-        <div className="w-[600px] h-[460px] relative">
+        <div className="w-[600px] h-[440px] relative">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
             <div className="bg-gradient-to-r from-[#7C3AED] to-[#884cee] text-white rounded-2xl px-8 py-6 shadow-2xl">
               <div className="text-center">
