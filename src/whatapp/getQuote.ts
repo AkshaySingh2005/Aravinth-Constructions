@@ -1,5 +1,5 @@
 export const openWhatsApp = () => {
-  const phoneNumber = "9842438323";
+  const phoneNumber = import.meta.env.VITE_WHATSAPP_PHONE_NUMBER;
   const defaultMessage =
     "Hello! I'm interested in getting a quote for construction services. Could you please provide me with more information?";
 
