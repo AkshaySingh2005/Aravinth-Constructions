@@ -44,8 +44,8 @@ const Footer = () => {
 
             {/* Quick Links Column */}
             <div className="space-y-4 pl-14">
-              <h3 className="text-2xl font-bold mb-4">Quick Links</h3>
-              <div className="space-y-2 pl-3">
+              <h3 className="text-2xl font-bold mb-4 pl-14">Quick Links</h3>
+              <div className="space-y-2 pl-14">
                 <a
                   href="#home"
                   className="block text-gray-300 hover:text-[#7C3AED] transition-colors duration-300"

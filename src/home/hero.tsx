@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { icons } from "@/constants/icon";
 import { heroImages } from "@/constants/heroImages";
+import { ArrowRight } from "lucide-react";
+import { openWhatsApp } from "@/whatapp/getQuote";
 
 const Hero = () => {
   return (
@@ -24,12 +26,20 @@ const Hero = () => {
             <span>20+ Years of Experience You Can Trust</span>
           </div>
         </div>
-        <div className="pt-10 flex space-x-8">
-          <Button className="bg-[#884cee]  hover:bg-[#7C3AED] font-bold">
+        <div className="pt-10 flex flex-row items-center gap-4">
+          <div>
+            <p className="bg-white hover:bg-white text-[#7C3AED] font-bold text-lg">
+              Start Your Project Today
+            </p>
+            <div className="w-29 h-1 bg-gradient-to-r from-[#7C3AED] to-[#884cee] mx-auto rounded-full"></div>
+          </div>
+
+          <ArrowRight size={32} />
+          <Button
+            className="bg-[#884cee]  hover:bg-[#7C3AED] font-bold"
+            onClick={() => openWhatsApp()}
+          >
             Request an Estimate
-          </Button>
-          <Button className="bg-white hover:bg-[#7C3AED] hover:text-white text-[#7C3AED] border border-[#7C3AED] font-bold">
-            Start Your Project Today
           </Button>
         </div>
       </div>

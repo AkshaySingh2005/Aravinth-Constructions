@@ -14,28 +14,28 @@ const Homepage = () => {
       <div className="px-32 border-b border-gray-200 shadow-md">
         <Header />
       </div>
-      <div className="px-32">
+      <div id="home" className="px-32">
         <Hero />
       </div>
-      <div className="px-32 bg-[#f9fafb]">
+      <div id="about" className="px-32 bg-[#f9fafb]">
         <AboutUS />
       </div>
       <div className="px-32">
         <Values />
       </div>
-      <div className="px-32 bg-[#f9fafb]">
+      <div id="services" className="px-32 bg-[#f9fafb]">
         <Services />
       </div>
-      <div className="px-32">
+      <div id="projects" className="px-32">
         <Projects />
       </div>
-      <div className="px-32 bg-[#f9fafb]">
+      <div id="partners" className="px-32 bg-[#f9fafb]">
         <Partners />
       </div>
-      <div className="px-32 ">
+      <div className="px-32">
         <Founder />
       </div>
-      <div className="px-32 bg-black ">
+      <div id="contact" className="px-32 bg-gray-800">
         <Footer />
       </div>
     </>
