@@ -1,4 +1,3 @@
-import { heroImages } from "@/constants/heroImages";
 import { servicesImages } from "@/constants/servicesImages";
 import { Building, House, Ruler, Users } from "lucide-react";
 
