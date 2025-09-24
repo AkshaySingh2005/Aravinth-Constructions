@@ -17,7 +17,7 @@ const Homepage = () => {
       <div id="home" className="px-4 sm:px-8 md:px-16 lg:px-32">
         <Hero />
       </div>
-      <div id="about" className="px-32 bg-[#f9fafb]">
+      <div id="about" className="px-4 sm:px-8 md:px-16 lg:px-32 bg-[#f9fafb]">
         <AboutUS />
       </div>
       <div className="px-32">
