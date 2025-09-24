@@ -6,17 +6,18 @@ import { openWhatsApp } from "@/whatapp/getQuote";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-2 gap-1 py-24 items-start">
-      <div>
-        <div className="text-7xl font-bold font-sans leading-[1.3]">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-1 py-12 md:py-24 items-center md:items-start">
+      {/* Content Section */}
+      <div className="order-2 md:order-1">
+        <div className="text-4xl md:text-7xl font-bold font-sans leading-tight md:leading-[1.3]">
           Civil Engineers make the World.
         </div>
-        <div className="py-8 text-2xl leading-relaxed">
+        <div className="py-6 md:py-8 text-lg md:text-2xl leading-relaxed">
           Established in Poonthottam, Thiruvarur - Delivering 15+ Years of
           Trusted Construction Services in Residential, Commercial, and
-          Community Projects .
+          Community Projects.
         </div>
-        <div className="space-y-2 text-2xl">
+        <div className="space-y-3 md:space-y-2 text-lg md:text-2xl">
           <div className="flex items-center gap-2">
             <img src={icons.tick} alt="✓" className="w-5 h-5" />
             <span>Local Roots, Lasting Strength</span>
@@ -26,7 +27,25 @@ const Hero = () => {
             <span>20+ Years of Experience You Can Trust</span>
           </div>
         </div>
-        <div className="pt-10 flex flex-row items-center gap-4">
+
+        {/* Mobile CTA */}
+        <div className="pt-8 md:hidden">
+          <div className="text-center space-y-4">
+            <p className="text-[#7C3AED] font-bold text-xl">
+              Start Your Project Today
+            </p>
+            <div className="w-32 h-1 bg-gradient-to-r from-[#7C3AED] to-[#884cee] mx-auto rounded-full"></div>
+            <Button
+              className="bg-[#884cee] hover:bg-[#7C3AED] font-bold text-lg px-8 py-3 flex items-center justify-center gap-2 w-full"
+              onClick={() => openWhatsApp()}
+            >
+              Request an Estimate
+            </Button>
+          </div>
+        </div>
+
+        {/* Desktop CTA (unchanged) */}
+        <div className="pt-10 flex-row items-center gap-4 hidden md:flex">
           <div>
             <p className="bg-white hover:bg-white text-[#7C3AED] font-bold text-lg">
               Start Your Project Today
@@ -36,18 +55,22 @@ const Hero = () => {
 
           <ArrowRight size={32} />
           <Button
-            className="bg-[#884cee]  hover:bg-[#7C3AED] font-bold"
+            className="bg-[#884cee] hover:bg-[#7C3AED] font-bold"
             onClick={() => openWhatsApp()}
           >
             Request an Estimate
           </Button>
         </div>
       </div>
-      <img
-        src={heroImages.hero_image_1}
-        alt="Hero Image"
-        className="rounded-2xl object-cover w-full h-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-      />
+
+      {/* Image Section */}
+      <div className="order-1 md:order-2 h-80 md:h-full">
+  <img
+    src={heroImages.hero_image_1}
+    alt="Hero Image"
+    className="rounded-2xl object-cover w-full h-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+  />
+</div>
     </div>
   );
 };
