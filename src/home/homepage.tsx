@@ -10,35 +10,56 @@ import Footer from "./footer";
 
 const Homepage = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <div className="px-4 sm:px-8 md:px-16 lg:px-32 border-b border-gray-200 shadow-md">
         <Header />
       </div>
-      <div id="home" className="px-4 sm:px-8 md:px-16 lg:px-32">
+      <div
+        id="home"
+        className="px-4 sm:px-8 md:px-16 lg:px-32 overflow-x-hidden"
+      >
         <Hero />
       </div>
-      <div id="about" className="px-4 sm:px-8 md:px-16 lg:px-32 bg-[#f9fafb]">
+      <div
+        id="about"
+        className="px-4 sm:px-8 md:px-16 lg:px-32 bg-[#f9fafb] overflow-x-hidden"
+      >
         <AboutUS />
       </div>
-      <div className="px-32">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 overflow-x-hidden">
         <Values />
       </div>
-      <div id="services" className="px-32 bg-[#f9fafb]">
+      <div
+        id="services"
+        className="px-4 sm:px-8 md:px-16 lg:px-32 bg-[#f9fafb] overflow-x-hidden"
+      >
         <Services />
       </div>
-      <div id="projects" className="px-32">
+      <div
+        id="projects"
+        className="px-4 sm:px-8 md:px-16 lg:px-32 overflow-x-hidden"
+      >
         <Projects />
       </div>
-      <div id="partners" className="px-32 bg-[#f9fafb]">
+      <div
+        id="partners"
+        className="px-4 sm:px-8 md:px-16 lg:px-32 bg-[#f9fafb] overflow-x-hidden"
+      >
         <Partners />
       </div>
-      <div className="px-32">
+      <div
+        id="founder"
+        className="px-4 sm:px-8 md:px-16 lg:px-32 overflow-x-hidden"
+      >
         <Founder />
       </div>
-      <div id="contact" className="px-32 bg-gray-800">
+      <div
+        id="contact"
+        className="px-4 sm:px-8 md:px-16 lg:px-32 bg-gray-800 overflow-x-hidden"
+      >
         <Footer />
       </div>
-    </>
+    </div>
   );
 };
 
