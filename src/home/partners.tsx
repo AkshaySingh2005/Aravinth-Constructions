@@ -21,19 +21,6 @@ const Partners = () => {
       <div className="mb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Partner 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">🤝</span>
-              <div>
-                <h3 className="font-bold text-2xl text-gray-800 mb-2">
-                  DostBin
-                </h3>
-                <p className="text-gray-600 text-lg">
-                  Sustainable waste management partner
-                </p>
-              </div>
-            </div>
-          </div>
 
           {/* Partner 2 */}
           <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
@@ -45,6 +32,20 @@ const Partners = () => {
                 </h3>
                 <p className="text-gray-600 text-lg">
                   Into Medical, Hospitality, Retail Stores
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+            <div className="flex items-start gap-4">
+              <span className="text-3xl">♻️</span>
+              <div>
+                <h3 className="font-bold text-2xl text-gray-800 mb-2">
+                  DostBin
+                </h3>
+                <p className="text-gray-600 text-lg">
+                  Sustainable waste management partner
                 </p>
               </div>
             </div>

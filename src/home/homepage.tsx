@@ -11,10 +11,10 @@ import Footer from "./footer";
 const Homepage = () => {
   return (
     <>
-      <div className="px-32 border-b border-gray-200 shadow-md">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 border-b border-gray-200 shadow-md">
         <Header />
       </div>
-      <div id="home" className="px-32">
+      <div id="home" className="px-4 sm:px-8 md:px-16 lg:px-32">
         <Hero />
       </div>
       <div id="about" className="px-32 bg-[#f9fafb]">
