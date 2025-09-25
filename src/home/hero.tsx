@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { icons } from "@/constants/icon";
 import { heroImages } from "@/constants/heroImages";
 import { ArrowRight } from "lucide-react";
-import { openWhatsApp } from "@/whatapp/getQuote";
+import { openWhatsApp } from "@/services/getQuote";
 
 const Hero = () => {
   return (
@@ -65,12 +65,12 @@ const Hero = () => {
 
       {/* Image Section */}
       <div className="order-1 md:order-2 h-80 md:h-full">
-  <img
-    src={heroImages.hero_image_1}
-    alt="Hero Image"
-    className="rounded-2xl object-cover w-full h-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-  />
-</div>
+        <img
+          src={heroImages.hero_image_1}
+          alt="Hero Image"
+          className="rounded-2xl object-cover w-full h-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+        />
+      </div>
     </div>
   );
 };

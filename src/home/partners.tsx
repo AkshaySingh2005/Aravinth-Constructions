@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { openPartnershipEmailSmart } from "@/services/getPartnership";
 
 const Partners = () => {
   return (
@@ -63,7 +64,10 @@ const Partners = () => {
           our commitment to quality and community development, we'd love to hear
           from you.
         </p>
-        <Button className="bg-white text-[#7C3AED] hover:bg-gray-100 font-bold text-lg md:px-8 px-2 py-3">
+        <Button
+          onClick={() => openPartnershipEmailSmart()}
+          className="bg-white text-[#7C3AED] hover:bg-gray-100 font-bold text-lg md:px-8 px-2 py-3"
+        >
           👉 Join Our Partnership — Email Us
         </Button>
       </div>
