@@ -81,8 +81,8 @@ const Founder = () => {
               <h3 className="font-bold mb-3">Founder's Philosophy:</h3>
               <p className="italic leading-relaxed">
                 "Civil Engineers make the world — and with 20+ years of
-                experience, I am proud to serve the people of Poonthottam,
-                Thiruvarur with honesty, strength, and commitment."
+                experience, I am proud to serve the People of Thiruvarur,
+                Mayiladuthurai , Karaika with honesty, strength, and commitment."
               </p>
             </div>
           </div>

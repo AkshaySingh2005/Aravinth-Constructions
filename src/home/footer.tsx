@@ -17,8 +17,8 @@ const Footer = () => {
                 <p className="flex items-start">
                   <MapPin className="mr-3 mt-1 text-[#4bc4ef]" size={35} />
                   <span>
-                    <strong>Office:</strong> Aravinth Constructions,
-                    Poonthottam, Thiruvarur, Tamil Nadu
+                    <strong>Office:</strong>Office - 471, Railway Station Road,
+                    Poonthottam, Nannilam Taluk, Thiruvarur District,609503
                   </span>
                 </p>
                 <p className="flex items-center">

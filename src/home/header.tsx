@@ -30,7 +30,7 @@ const Header = () => {
         />
         {/* Desktop - Single line */}
         <h2 className="text-xl md:text-2xl font-bold font-sans hidden sm:block">
-          Aravinth Construction
+          Aravinth Constructions
         </h2>
         {/* Mobile - Two lines */}
         <div className="block sm:hidden">
@@ -38,7 +38,7 @@ const Header = () => {
             Aravinth
           </h2>
           <h2 className="text-sm font-bold font-sans leading-tight text-gray-600">
-            Construction
+            Constructions
           </h2>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Values = () => {
             <p className="leading-relaxed text-base md:text-xl pt-4">
               To provide affordable, reliable, and sustainable construction
               services that improve the lives of families and businesses in
-              Poonthottam, Thiruvarur.
+              Thiruvarur, Mayiladuthurai, Nagapattinam, Kumbakonam and Karaikal .
             </p>
           </div>
         </div>

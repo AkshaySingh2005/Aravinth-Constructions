@@ -40,7 +40,7 @@ const Partners = () => {
                   Aravinth Enterprises
                 </h3>
                 <p className="text-gray-600 text-lg">
-                  Into Medical, Hospitality, Retail Stores
+                  Medical, Clinic, Hospitality, Real Estate
                 </p>
               </div>
             </div>
