@@ -10,8 +10,4 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
-  server: {
-    host: true, // listen on all interfaces
-    allowedHosts: true, // allow external hosts (ngrok, LAN, etc.)
-  },
 });
