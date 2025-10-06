@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { partners } from "@/constants/partners";
 import { openPartnershipEmailSmart } from "@/services/getPartnership";
+import { ExternalLink, Globe } from "lucide-react";
 
 const Partners = () => {
   return (
@@ -22,9 +23,7 @@ const Partners = () => {
       {/* Current Partners Section */}
       <div className="mb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Partner 1 */}
-
-          {/* Partner 2 */}
+      
           <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
             <div className="flex items-start gap-4">
               <span className="text-3xl">
@@ -46,7 +45,19 @@ const Partners = () => {
             </div>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+          <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 relative overflow-hidden">
+            <div className="absolute top-3 right-3">
+              <a
+                href="http://www.dostbin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#1798c7] text-white px-3 py-1 rounded-full text-sm font-medium hover:bg-[#1485a6] transition-colors duration-300 flex items-center gap-1"
+              >
+                <Globe size={12} />
+                Visit
+              </a>
+            </div>
+
             <div className="flex items-start gap-4">
               <span className="text-3xl">
                 <img
@@ -56,10 +67,16 @@ const Partners = () => {
                 />
               </span>
               <div>
-                <h3 className="font-bold text-2xl text-gray-800 mb-2">
+                <a
+                  href="http://www.dostbin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-2xl text-gray-800 mb-2 hover:text-[#1798c7] transition-colors duration-300 flex items-center gap-2"
+                >
                   DostBin
-                </h3>
-                <p className="text-gray-600 text-lg">
+                  <ExternalLink size={18} className="text-[#1798c7]" />
+                </a>
+                <p className="text-gray-600 text-lg mt-2">
                   Sustainable waste management partner
                 </p>
               </div>
